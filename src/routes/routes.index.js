@@ -3,7 +3,7 @@ import { TestRouter } from "./endpoints/test/test.routes.js";
 
 export const RoutesDeclarations = [
     {
-        path: '/api',
+        path: '/',
         router: [
             ProductosRouter,
             TestRouter
