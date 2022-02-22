@@ -22,7 +22,6 @@ export default class Server {
     InitializePort() {
         WEB_SERVER.listen(environment.PORT, environment.HOST, () => {
             console.log(`Conectado al puerto ${environment.PORT}`);
-            console.log(`Host: ${environment.HOST}`)
         });
     }
 }
